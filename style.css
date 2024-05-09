@@ -23,6 +23,7 @@ body {
     background-color: #f0f0f0;
     text-align: center;
     padding: 20px;
+    background: skyblue;
 }
 
 /* Style the title of your story */
@@ -106,4 +107,8 @@ button:hover {
 .option-two-end h1 {
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+.option-one-end-img {
+    display: flex;
 }
