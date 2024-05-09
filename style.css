@@ -109,6 +109,7 @@ button:hover {
     margin-bottom: 20px;
 }
 
-.option-one-end-img {
+.option-one-end-img,
+.option-two-end-img{
     display: flex;
 }
