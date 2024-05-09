@@ -109,7 +109,10 @@ button:hover {
     margin-bottom: 20px;
 }
 
-.option-one-end-img,
-.option-two-end-img{
+.option-one-end-img {
     display: flex;
+}
+.option-two-end-img {
+    display: flex;
+    width: 350px;
 }
