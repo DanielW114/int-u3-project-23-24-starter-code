@@ -2,71 +2,74 @@
 <html>
 
 <head>
-    <title>Unit 3 Project Starter Code</title>
+  <title>Unit 3 Project Starter Code</title>
 </head>
 <link rel="stylesheet" href="style.css">
 <script defer src="script.js"></script>
 
 <body>
-    <!-- Add a title and edit the opening of your story. -->
-    <div class="title">3 Little Pigs</div>
-    <div class="story-opening">
-        <img src="https://i.etsystatic.com/33820036/r/il/ce5683/4238743339/il_794xN.4238743339_frpb.jpg">
-        <h1>Pick a material</h1>
-    </div>
+  <!-- Add a title and edit the opening of your story. -->
+  <div class="title">3 Little Pigs</div>
+  <div class="story-opening">
+    <img src="https://i.etsystatic.com/33820036/r/il/ce5683/4238743339/il_794xN.4238743339_frpb.jpg">
+    <h1>Pick a material</h1>
+
 
     <!-- Change the text of the buttons to the options relevant to your story. -->
     <div class="buttons">
-        <button class="option-one">Bricks</button>
-        <button class="option-two">Sticks</button>
+      <button class="option-one">Bricks</button>
+      <button class="option-two">Sticks</button>
     </div>
+  </div>
+  <!-- Put the part of the story the user will see if they picked option one. -->
+  <div class="option-one-screen">
+    <p>You build a durable house out of bricks.</p>
+    <img src="https://thumbs.dreamstime.com/z/brick-house-27162540.jpg?w=576">
+    <div class="buttons">
+      <button class="continue-1">Continue</button>
+    </div>
+  </div>
 
-    <!-- Put the part of the story the user will see if they picked option one. -->
-    <div class="option-one-screen">
-        <h1>You build a durable house out of bricks.</h1>
-        <img src="https://thumbs.dreamstime.com/z/brick-house-27162540.jpg?w=576">
-        <div class="buttons">
-            <button class="continue-1">Continue</button>
-        </div>
+  <!-- Put the part of the story the user will see if they picked option two. -->
+  <div class="option-two-screen">
+    <p>You build a rickety house out of sticks.</p>
+    <img src="https://thumbs.dreamstime.com/z/fairy-house-three-little-pigs-fairy-tale-sticks-twigs-40162251.jpg?w=576">
+    <div class="buttons">
+      <button class="continue-2">Continue</button>
     </div>
+  </div>
 
-    <!-- Put the part of the story the user will see if they picked option two. -->
-    <div class="option-two-screen">
-        <h1>You build a rickety house out of sticks.</h1>
-        <img
-            src="https://thumbs.dreamstime.com/z/fairy-house-three-little-pigs-fairy-tale-sticks-twigs-40162251.jpg?w=576">
-        <div class="buttons">
-            <button class="continue-2">Continue</button>
-        </div>
+  <!--Put the end of the story if the user chose option 1.-->
+  <div class="option-one-end">
+    <p>Oh no! The big bad wolf has come to blow down your house, but worry not, the house stood strong and fended
+      him off.
+    <p>
+    <div class="option-one-end-img">
+      <img
+        src="https://www.creativefabrica.com/wp-content/uploads/2020/06/09/wolf-facing-right-Animal-Graphics-4312963-1-1-580x435.jpg">
+      <img src="https://thumbs.dreamstime.com/z/brick-house-27162540.jpg?w=576">
     </div>
+    <div class="buttons">
+      <button class="restart1">Restart?</button>
+    </div>
+  </div>
 
-    <!--Put the end of the story if the user chose option 1.-->
-    <div class="option-one-end">
-        <h1>Oh no! The big bad wolf has come to blow down your house, but worry not, the house stood strong and fended
-            him off.</h1>
-        <div class="option-one-end-img">
-            <img
-                src="https://www.creativefabrica.com/wp-content/uploads/2020/06/09/wolf-facing-right-Animal-Graphics-4312963-1-1-580x435.jpg">
-            <img src="https://thumbs.dreamstime.com/z/brick-house-27162540.jpg?w=576">
-        </div>
+  <!-- Put the end of the story if the user chose option 2.-->
+  <div class="option-two-end">
+    <p>Oh no! After devouring the other pig, the big bad wolf has come to blow down your house, but it was strong
+      enough for you to escape to the brick house the other pig built.</p>
+    <div class="option-two-end-img">
+      <img
+        src="https://www.creativefabrica.com/wp-content/uploads/2020/06/09/wolf-facing-right-Animal-Graphics-4312963-1-1-580x435.jpg">
+      <img
+        src="https://thumbs.dreamstime.com/z/fairy-house-three-little-pigs-fairy-tale-sticks-twigs-40162251.jpg?w=576">
+      <img src="https://cdn.vectorstock.com/i/preview-1x/15/23/portrait-of-standing-pig-side-view-vector-22381523.webp">
+      <img src="https://thumbs.dreamstime.com/z/brick-house-27162540.jpg?w=576">
     </div>
-
-    <!-- Put the end of the story if the user chose option 2.-->
-    <div class="option-two-end">
-        <h1>Oh no! The big bad wolf has come to blow down your house, after eating the pig who built his house
-            out of straws, but your house was strong enough for you to escape to the brick house that the other
-            pig built.</h1>
-        <div class="option-two-end-img">
-            <img
-                src="https://www.creativefabrica.com/wp-content/uploads/2020/06/09/wolf-facing-right-Animal-Graphics-4312963-1-1-580x435.jpg">
-            <img
-                src="https://thumbs.dreamstime.com/z/fairy-house-three-little-pigs-fairy-tale-sticks-twigs-40162251.jpg?w=576">
-            <img
-                src="https://cdn.vectorstock.com/i/preview-1x/15/23/portrait-of-standing-pig-side-view-vector-22381523.webp">
-            <img
-                src="https://thumbs.dreamstime.com/z/brick-house-27162540.jpg?w=576">
-        </div>
+    <div class="buttons">
+      <button class="restart2">Restart?</button>
     </div>
+  </div>
 </body>
 
 </html>
